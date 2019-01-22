@@ -1,8 +1,7 @@
-.. image:: https://travis-ci.org/silentsokolov/django-admin-rangefilter.svg?branch=master
-   :target: https://travis-ci.org/silentsokolov/django-admin-rangefilter
 
-.. image:: https://codecov.io/gh/silentsokolov/django-admin-rangefilter/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/silentsokolov/django-admin-rangefilter
+This version does only hold *a tiny modification*: rearangement inside the ``templates\rangefilter\date_filter.html`` to deal with the nice logic of the pepelinux nice 
+`admin-filter-toogle.js script <https://github.com/peppelinux/Django-snippets/blob/master/django-admin.js-snippets/menu_filter_collapse.js>`_
+
 
 django-admin-rangefilter
 ========================
