@@ -1,5 +1,4 @@
 {% load i18n admin_static %}
-<h3>{% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}</h3>
 <link rel="stylesheet" type="text/css" href="{% static 'admin/css/widgets.css' %}">
 <style>
     .button, input[type=submit], input[type=button], .submit-row input, a.button,
@@ -123,6 +122,7 @@ https://github.com/django/django/blob/stable/1.10.x/django/contrib/admin/templat
         }
     });
 </script>
+<h3>{% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}</h3>
 <div class="admindatefilter">
     <form method="GET" action="." id="{{ choices.0.system_name }}-form">
         {{ spec.form.as_p }}
